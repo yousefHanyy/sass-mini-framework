@@ -1,0 +1,9 @@
+@use "../abstracts/variables" as *;
+@mixin text-color($bg-color) {
+  @if lightness($bg-color) >50 {
+    color: $darkcolor;
+  }
+  else {
+    color: $lightcolor;
+  }
+}
