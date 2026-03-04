@@ -11,3 +11,21 @@
     width: (100% / $totalcolumns) * $i;
   }
 }
+$colors: (
+  primary: $primarycolor,
+  secondary: $secondarycolor,
+  danger: $dangercolor,
+  light: $lightcolor,
+);
+
+@each $color-name, $color-value in $colors {
+  .bg-#{$color-name} {
+    background-color: $color-value;
+  }
+}
+
+@each $color-name, $color-value in $colors {
+  .text-#{$color-name} {
+    color: $color-value;
+  }
+}

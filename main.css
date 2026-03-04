@@ -275,6 +275,38 @@
   width: 100%;
 }
 
+.bg-primary {
+  background-color: skyblue;
+}
+
+.bg-secondary {
+  background-color: lightgreen;
+}
+
+.bg-danger {
+  background-color: tomato;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.text-primary {
+  color: skyblue;
+}
+
+.text-secondary {
+  color: lightgreen;
+}
+
+.text-danger {
+  color: tomato;
+}
+
+.text-light {
+  color: white;
+}
+
 .border-top-primary {
   border-top: 2px solid skyblue;
 }
