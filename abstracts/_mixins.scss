@@ -7,3 +7,26 @@
     color: $lightcolor;
   }
 }
+@mixin border-side($side, $width: 1px, $style: solid, $color: black) {
+  border-#{$side}: $width $style $color;
+}
+
+//* Generate different border-(width)-(color) using each:
+$colors: (
+  primary: $primarycolor,
+  success: $secondarycolor,
+  danger: $dangercolor,
+);
+$border-widths: (1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px);
+
+@mixin border-utility($width, $color-name, $color-value) {
+  .border-#{$width}-#{$color-name} {
+    border: #{$width} solid $color-value;
+  }
+}
+
+@each $color-name, $color-value in $colors {
+  @each $width in $border-widths {
+    @include border-utility($width, $color-name, $color-value);
+  }
+}

@@ -1,0 +1,42 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.border-top-primary {
+  @include border-side(top, 2px, solid, $primarycolor);
+}
+.border-top-secondary {
+  @include border-side(top, 2px, solid, $secondarycolor);
+}
+.border-top-danger {
+  @include border-side(top, 2px, solid, $dangercolor);
+}
+
+.border-bottom-primary {
+  @include border-side(bottom, 2px, solid, $primarycolor);
+}
+.border-bottom-secondary {
+  @include border-side(bottom, 2px, solid, $secondarycolor);
+}
+.border-bottom-danger {
+  @include border-side(bottom, 2px, solid, $dangercolor);
+}
+
+.border-left-primary {
+  @include border-side(left, 2px, solid, $primarycolor);
+}
+.border-left-secondary {
+  @include border-side(left, 2px, solid, $secondarycolor);
+}
+.border-left-danger {
+  @include border-side(left, 2px, solid, $dangercolor);
+}
+
+.border-right-primary {
+  @include border-side(top, 2px, solid, $primarycolor);
+}
+.border-right-secondary {
+  @include border-side(right, 2px, solid, $secondarycolor);
+}
+.border-right-danger {
+  @include border-side(right, 2px, solid, $dangercolor);
+}

@@ -1,3 +1,123 @@
+.border-1px-primary {
+  border: 1px solid skyblue;
+}
+
+.border-2px-primary {
+  border: 2px solid skyblue;
+}
+
+.border-3px-primary {
+  border: 3px solid skyblue;
+}
+
+.border-4px-primary {
+  border: 4px solid skyblue;
+}
+
+.border-5px-primary {
+  border: 5px solid skyblue;
+}
+
+.border-6px-primary {
+  border: 6px solid skyblue;
+}
+
+.border-7px-primary {
+  border: 7px solid skyblue;
+}
+
+.border-8px-primary {
+  border: 8px solid skyblue;
+}
+
+.border-9px-primary {
+  border: 9px solid skyblue;
+}
+
+.border-10px-primary {
+  border: 10px solid skyblue;
+}
+
+.border-1px-success {
+  border: 1px solid lightgreen;
+}
+
+.border-2px-success {
+  border: 2px solid lightgreen;
+}
+
+.border-3px-success {
+  border: 3px solid lightgreen;
+}
+
+.border-4px-success {
+  border: 4px solid lightgreen;
+}
+
+.border-5px-success {
+  border: 5px solid lightgreen;
+}
+
+.border-6px-success {
+  border: 6px solid lightgreen;
+}
+
+.border-7px-success {
+  border: 7px solid lightgreen;
+}
+
+.border-8px-success {
+  border: 8px solid lightgreen;
+}
+
+.border-9px-success {
+  border: 9px solid lightgreen;
+}
+
+.border-10px-success {
+  border: 10px solid lightgreen;
+}
+
+.border-1px-danger {
+  border: 1px solid tomato;
+}
+
+.border-2px-danger {
+  border: 2px solid tomato;
+}
+
+.border-3px-danger {
+  border: 3px solid tomato;
+}
+
+.border-4px-danger {
+  border: 4px solid tomato;
+}
+
+.border-5px-danger {
+  border: 5px solid tomato;
+}
+
+.border-6px-danger {
+  border: 6px solid tomato;
+}
+
+.border-7px-danger {
+  border: 7px solid tomato;
+}
+
+.border-8px-danger {
+  border: 8px solid tomato;
+}
+
+.border-9px-danger {
+  border: 9px solid tomato;
+}
+
+.border-10px-danger {
+  border: 10px solid tomato;
+}
+
 .mt-1 {
   margin-top: 5px;
 }
@@ -153,4 +273,52 @@
 
 .col-12 {
   width: 100%;
+}
+
+.border-top-primary {
+  border-top: 2px solid skyblue;
+}
+
+.border-top-secondary {
+  border-top: 2px solid lightgreen;
+}
+
+.border-top-danger {
+  border-top: 2px solid tomato;
+}
+
+.border-bottom-primary {
+  border-bottom: 2px solid skyblue;
+}
+
+.border-bottom-secondary {
+  border-bottom: 2px solid lightgreen;
+}
+
+.border-bottom-danger {
+  border-bottom: 2px solid tomato;
+}
+
+.border-left-primary {
+  border-left: 2px solid skyblue;
+}
+
+.border-left-secondary {
+  border-left: 2px solid lightgreen;
+}
+
+.border-left-danger {
+  border-left: 2px solid tomato;
+}
+
+.border-right-primary {
+  border-top: 2px solid skyblue;
+}
+
+.border-right-secondary {
+  border-right: 2px solid lightgreen;
+}
+
+.border-right-danger {
+  border-right: 2px solid tomato;
 }/*# sourceMappingURL=main.css.map */
