@@ -353,4 +353,10 @@
 
 .border-right-danger {
   border-right: 2px solid tomato;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+//! use mixins here
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+@use "../abstracts/extends" as *;
+
+.btn-primary {
+  @extend %btn-base;
+  @include border-utility(1, solid, $primarycolor);
+}
+.btn-secondary {
+  @extend %btn-base;
+  @include border-utility(1, solid, $secondarycolor);
+}
+.btn-danger {
+  @extend %btn-base;
+  @include border-utility(1, solid, $dangercolor);
+}
