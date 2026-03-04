@@ -1,120 +1,120 @@
-.border-1px-primary {
+.border-1-primary {
   border: 1px solid skyblue;
 }
 
-.border-2px-primary {
+.border-2-primary {
   border: 2px solid skyblue;
 }
 
-.border-3px-primary {
+.border-3-primary {
   border: 3px solid skyblue;
 }
 
-.border-4px-primary {
+.border-4-primary {
   border: 4px solid skyblue;
 }
 
-.border-5px-primary {
+.border-5-primary {
   border: 5px solid skyblue;
 }
 
-.border-6px-primary {
+.border-6-primary {
   border: 6px solid skyblue;
 }
 
-.border-7px-primary {
+.border-7-primary {
   border: 7px solid skyblue;
 }
 
-.border-8px-primary {
+.border-8-primary {
   border: 8px solid skyblue;
 }
 
-.border-9px-primary {
+.border-9-primary {
   border: 9px solid skyblue;
 }
 
-.border-10px-primary {
+.border-10-primary {
   border: 10px solid skyblue;
 }
 
-.border-1px-success {
+.border-1-success {
   border: 1px solid lightgreen;
 }
 
-.border-2px-success {
+.border-2-success {
   border: 2px solid lightgreen;
 }
 
-.border-3px-success {
+.border-3-success {
   border: 3px solid lightgreen;
 }
 
-.border-4px-success {
+.border-4-success {
   border: 4px solid lightgreen;
 }
 
-.border-5px-success {
+.border-5-success {
   border: 5px solid lightgreen;
 }
 
-.border-6px-success {
+.border-6-success {
   border: 6px solid lightgreen;
 }
 
-.border-7px-success {
+.border-7-success {
   border: 7px solid lightgreen;
 }
 
-.border-8px-success {
+.border-8-success {
   border: 8px solid lightgreen;
 }
 
-.border-9px-success {
+.border-9-success {
   border: 9px solid lightgreen;
 }
 
-.border-10px-success {
+.border-10-success {
   border: 10px solid lightgreen;
 }
 
-.border-1px-danger {
+.border-1-danger {
   border: 1px solid tomato;
 }
 
-.border-2px-danger {
+.border-2-danger {
   border: 2px solid tomato;
 }
 
-.border-3px-danger {
+.border-3-danger {
   border: 3px solid tomato;
 }
 
-.border-4px-danger {
+.border-4-danger {
   border: 4px solid tomato;
 }
 
-.border-5px-danger {
+.border-5-danger {
   border: 5px solid tomato;
 }
 
-.border-6px-danger {
+.border-6-danger {
   border: 6px solid tomato;
 }
 
-.border-7px-danger {
+.border-7-danger {
   border: 7px solid tomato;
 }
 
-.border-8px-danger {
+.border-8-danger {
   border: 8px solid tomato;
 }
 
-.border-9px-danger {
+.border-9-danger {
   border: 9px solid tomato;
 }
 
-.border-10px-danger {
+.border-10-danger {
   border: 10px solid tomato;
 }
 
@@ -220,6 +220,13 @@
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding: 5px;
+}
+
+.btn-primary, .btn-secondary, .btn-danger {
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+  margin: 5px;
 }
 
 .row {
@@ -359,4 +366,26 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+.card {
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 5px 5px lightgreen inset;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.1s;
+}
+
+.btn-primary {
+  background-color: skyblue;
+}
+
+.btn-secondary {
+  background-color: lightgreen;
+}
+
+.btn-danger {
+  background-color: tomato;
 }/*# sourceMappingURL=main.css.map */

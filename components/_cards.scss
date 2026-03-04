@@ -1,1 +1,12 @@
 //! use mixins here
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+.card {
+  padding: $spacingunit;
+  border-radius: $borderradius;
+  @include bxshadow(5px, 5px, $secondarycolor, inset);
+  &:hover {
+    transform: scale(1.02);
+    transition: 0.1s;
+  }
+}

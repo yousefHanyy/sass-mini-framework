@@ -5,13 +5,13 @@
 
 .btn-primary {
   @extend %btn-base;
-  @include border-utility(1, solid, $primarycolor);
+  background-color: $primarycolor;
 }
 .btn-secondary {
   @extend %btn-base;
-  @include border-utility(1, solid, $secondarycolor);
+  background-color: $secondarycolor;
 }
 .btn-danger {
   @extend %btn-base;
-  @include border-utility(1, solid, $dangercolor);
+  background-color: $dangercolor;
 }

@@ -17,11 +17,11 @@ $colors: (
   success: $secondarycolor,
   danger: $dangercolor,
 );
-$border-widths: (1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px);
+$border-widths: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 @mixin border-utility($width, $color-name, $color-value) {
   .border-#{$width}-#{$color-name} {
-    border: #{$width} solid $color-value;
+    border: #{$width}px solid $color-value;
   }
 }
 
